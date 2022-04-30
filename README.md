@@ -1,3 +1,3 @@
 # Kokoa Clone
 
-HTML is LORD!!!!!
+Actually, CSS is LORD, HTML is... just tool.
