@@ -15,6 +15,22 @@
     font-size: 22px;
 }
 
+@keyframes noticesAnimation {
+    0% {
+        transform: none;
+    }
+    50% {
+        transform: scaleX(1.1) scaleY(1.1);
+    }
+    100% {
+        transform: none;
+    }
+}
+
+.settings__setting-column i:hover {
+    animation: noticesAnimation 1s linear infinite;
+}
+
 .settings__setting-column:last-child {
     opacity: 0.5;
     font-size: 16px;
