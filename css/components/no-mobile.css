@@ -5,9 +5,10 @@
     width: 100vw;
     background-color: var(--yellow);
     display: flex;
+    flex-direction: column;
     top: 0;
     justify-content: center;
-    align-items: center;;
+    align-items: center;
     font-size: 32px;
 }
 

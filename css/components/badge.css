@@ -1,17 +1,17 @@
 .badge {
-    background-color: tomato;
+    background-color: #9ef77e;
     width: 25px;
     height: 25px;
     border-radius: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
-    color: white;
+    color: #010724;
     font-weight: 500;
 }
 
 .badge2 {
-    background-color: tomato;
+    background-color: #9ef77e;
     width: 6px;
     height: 6px;
     border-radius: 50%;

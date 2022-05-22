@@ -21,15 +21,16 @@
 }
 
 #login-form input {
+    background-color: #010724;
     border: none;
     padding: 20px 0px;
     font-size: 18px;
     margin-bottom: 25px;
-    
 }
 
 #login-form input:not([type="submit"]) {
     border-bottom: var(--main-border);
+    color: var(--green);
     transition: border-color 0.3s ease-in-out;
 }
 
@@ -38,12 +39,14 @@
 }
 
 #login-form input:focus {
-    border-color: var(--yellow);
+    border-color: var(--green);
 }
 
 #login-form input[type="submit"] {
-    background-color: var(--yellow);
+    background-color: none;
+    color: var(--green);
     cursor: pointer;
+    border: var(--main-border);
     border-radius: 5px;
 }
 

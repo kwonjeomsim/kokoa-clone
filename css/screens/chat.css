@@ -1,10 +1,10 @@
 #chat-screen {
-    background-color: #abc1d1;
+    background-color: #000000;
     height: 1000vh;
 }
 
 #chat-screen .alt-header {
-    background-color: #abc1d1;
+    background-color: #000000;
     top: 10px;
     position: fixed;
     width: 100%;
@@ -14,7 +14,7 @@
 
 #chat-screen .status-bar {
     z-index: 2;
-    background-color: #abc1d1;
+    background-color: #000000;
 }
 
 @keyframes fadeIn {
@@ -39,7 +39,7 @@
 
 .chat__timestamp {
     color: white;
-    background-color: #92a4b2;
+    background-color: #000000;
     padding: 15px;
     font-size: 14px;
     border-radius: 25px;
@@ -80,9 +80,10 @@
 }
 
 .message__bubble {
-    background-color: white;
+    background-color: none;
     padding: 10px;
     font-size: 18px;
+    border: 1px solid var(--green);
     border-radius: 12px;
     border-top-left-radius: 0px;
     margin-right: 5px;
@@ -104,7 +105,8 @@
 }
 
 .message-row--own .message__bubble {
-    background-color: var(--yellow);
+    background-color: none;
+    border: 1px solid var(--green);
     border-radius: 12px;
     border-top-right-radius: 0px;
     margin-right: 0px;
@@ -170,7 +172,7 @@
 }
 
 .reply__column button {
-    background-color: var(--yellow);
+    background-color: var(--green);
     border: none;
     width: 30px;
     height: 30px;
