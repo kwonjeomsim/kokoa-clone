@@ -1,0 +1,37 @@
+.settings__setting {
+    padding: 20px 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    opacity: 0.8;
+    justify-content: space-between;
+}
+
+.settings__setting i {
+    text-align: center;
+    margin-right: 20px;
+    width: 22px;
+    font-size: 22px;
+}
+
+@keyframes noticesAnimation {
+    0% {
+        transform: none;
+    }
+    50% {
+        transform: scaleX(1.1) scaleY(1.1);
+    }
+    100% {
+        transform: none;
+    }
+}
+
+.settings__setting-column i:hover {
+    animation: noticesAnimation 1s linear infinite;
+}
+
+.settings__setting-column:last-child {
+    opacity: 0.5;
+    font-size: 16px;
+}
