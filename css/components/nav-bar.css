@@ -2,10 +2,10 @@
     position: fixed;
     bottom: 0;
     width: 100%;
-    background-color: #f9f9fa;
+    background-color: #010724;
     padding: 20px 50px;
     box-sizing: border-box;
-    border-top: 1px solid rgba(0, 0, 0, 0.15);
+    border-top: 1px dotted #3fed00;
 }
 
 .nav__list {
@@ -15,7 +15,7 @@
 
 .nav__link {
     position: relative;
-    color: #2e363e;
+    color: #3fed00;
 }
 
 @keyframes notificationAnimation {
@@ -39,7 +39,7 @@
 }
 
 .nav__notification2 {
-    background-color: tomato;
+    background-color: #9ef77e;
     width: 6px;
     height: 6px;
     border-radius: 50%;

@@ -7,7 +7,7 @@
 }
 
 .user-component__subtitle i {
-    color: tomato;
+    color: #3fed00;
     margin-left: 4px;
 }
 
@@ -29,13 +29,14 @@
     margin-right: 30px;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
 }
 
 .more-suggestions__icon-image {
     width: 60px;
     height: 60px;
-    background-color: var(--yellow);
+    background-color: none;
+    border: 2px solid #3fed00;
     border-radius: 10px;
     display: flex;
     justify-content: center;
@@ -45,5 +46,9 @@
 
 .more-suggestions__icon-image i {
     font-size: 30px;
-    color: white;
+    color: #3fed00;
+}
+
+.user-component__phone-number {
+    color: var(--green);
 }

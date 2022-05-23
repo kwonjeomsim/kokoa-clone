@@ -107,7 +107,7 @@
         transform: none;
     }
     50% {
-        color: tomato;
+        color: #3fed00;
         transform: scale(1.2);
     }
     100% {
